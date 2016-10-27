@@ -44,5 +44,6 @@ int main() {
     for (; x < 10; x++) {
         printf("Int %d: %u\n", x, newrandnumarr[x]);
     }
+    close(f);
     return 0;
 }
